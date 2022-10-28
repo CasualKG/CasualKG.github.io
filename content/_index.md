@@ -19,7 +19,7 @@ typora-root-url: ..\static
 
 > 主要看链接最后的**制作教程**链接。最详细，但是是英文，内容也比较多
 
-<img src="/images/_index.assets/image-20221023000330408.png" alt="image-20221023000330408" style="zoom: 50%;" />
+<img src="/images/_index.assets/image-20221023000330408-16669734633171.png" alt="image-20221023000330408" style="zoom: 50%;" />
 
 链接：https://github.com/YZHANG1270/Marvel_KnowledgeGraph
 
