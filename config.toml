@@ -1,7 +1,7 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
 baseURL = 'https://example.com/'
-title = 'Hugo Book'
+title = 'CasualKG Forum'
 theme = 'hugo-book'
 
 # Book configuration
@@ -9,9 +9,28 @@ disablePathToLower = true
 enableGitInfo = true
 
 # Needed for mermaid/katex shortcodes
+
+# Hugo 解析文档的配置
 [markup]
-[markup.goldmark.renderer]
-  unsafe = true
+  defaultMarkdownHandler = "pandoc"
+  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false 是必要的设置 (https://github.com/hugo-fixit/FixIt/issues/43)
+    noClasses = false
+    guessSyntax = false
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^pandoc$', '^nvim$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
 
 [markup.tableOfContents]
   startLevel = 1
@@ -40,7 +59,7 @@ enableGitInfo = true
 # [[menu.before]]
 [[menu.after]]
   name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
+  url = "https://github.com/CasualKG/CasualKG.github.io"
   weight = 10
 
 [[menu.after]]
