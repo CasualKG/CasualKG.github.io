@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mission on CasualKG Forum</title>
-    <link>https://example.com/</link>
-    <description>Recent content in Mission on CasualKG Forum</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Named Entity Recognition</title>
-      <link>https://example.com/docs/Project/Constructure/NER/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/Project/Constructure/NER/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recommendation System</title>
-      <link>https://example.com/docs/Project/Extension/Recommendation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/Project/Extension/Recommendation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Question&amp;Answer System</title>
-      <link>https://example.com/docs/Project/Extension/QA/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/Project/Extension/QA/</guid>
-      <description></description>
-    </item>
-    
+    <title>CasualKG Forum</title>
+    <link>https://example.com/docs/Project/Plan-for-Project/</link>
+    <description>Recent content on CasualKG Forum</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/docs/Project/Plan-for-Project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://example.com/docs/Project/Plan-for-Project/P4P/</link>
@@ -56,15 +29,6 @@
 稍微晚了两天发给xdm。这个pdf是更新过的，多了【案例】和【项目搭建】内容，说了咱们的大概安排。这个是我自己初定的，因为都是初学并且不太知道咱们具体第几周要做出成果，所以一切计划都可以根据后续进展改变。
 现在主要需要大家做的就是：
 读一下PDF（后续会想办法发布在网站上） 选一个案例进行为期两周的学习 有问题及时交流 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/Resource/Links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/Resource/Links/</guid>
-      <description></description>
     </item>
     
   </channel>

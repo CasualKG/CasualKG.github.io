@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/docs/Project/Constructure/NER/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Project/Extension/Recommendation/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Resource/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Project/Extension/QA/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Project/Plan-for-Project/P4P/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Resource/Links/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Project/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Project/Constructure/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Project/Extension/</loc>
+  </url><url>
+    <loc>https://example.com/docs/Project/Plan-for-Project/</loc>
+  </url><url>
     <loc>https://example.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -19,8 +39,10 @@
                 href="https://example.com/categories/"
                 />
   </url><url>
+    <loc>https://example.com/docs/</loc>
+  </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2022-10-28T23:39:31+08:00</lastmod>
+    <lastmod>2022-10-29T00:12:51+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
